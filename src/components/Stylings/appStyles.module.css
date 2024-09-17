@@ -1,3 +1,19 @@
 .success{
     color: green;
 }
+
+/*Usage
+
+import styles from "./components/Stylings/appStyles.module.css";
+const App =  () =>
+           <div className="App">
+
+               <h1 className = 'error'> Error</h1>
+               <h1 className = {styles.success}> Success</h1>
+
+           </div>
+
+
+
+export default App;
+*/

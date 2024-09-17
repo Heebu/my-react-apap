@@ -1,4 +1,4 @@
- function InlineCss() {
+function InlineCss() {
 
     const styles = {
         color: 'orange',
@@ -6,11 +6,13 @@
     }
     return (
         <div>
-            <h1 style ={styles}>
+            <h1 style={styles}>
                 Hello World!
             </h1>
         </div>
     )
+
+
 }
 
- export default InlineCss;
+export default InlineCss;
